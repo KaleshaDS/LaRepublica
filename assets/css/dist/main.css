@@ -1,0 +1,46 @@
+/*variables*/
+/*mixins*/
+/*estilo del banner*/
+.bg-gray {
+  background-color: #E6E6E6;
+  width: 100%;
+  padding: 50px 210px; }
+
+.style-head {
+  font-size: 12px;
+  text-decoration: none; }
+
+.style-head:hover {
+  text-decoration: none; }
+
+.color {
+  padding: 1px;
+  font-size: 5px;
+  position: relative;
+  color: #08088A; }
+
+.color2 {
+  padding: 1px;
+  font-size: 5px;
+  position: relative;
+  color: #0040FF; }
+
+.color3 {
+  padding: 1px;
+  font-size: 5px;
+  position: relative;
+  color: #DF0101; }
+
+.color4 {
+  padding: 1px;
+  font-size: 5px;
+  position: relative;
+  color: #D7DF01; }
+
+.color5 {
+  padding: 1px;
+  font-size: 5px;
+  position: relative;
+  color: #DF7401; }
+
+/*# sourceMappingURL=main.css.map */

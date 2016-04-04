@@ -1,0 +1,47 @@
+/*variables*/
+$m-letter: 12px;
+/*mixins*/
+@mixin icon-color{
+	padding: 1px;
+	font-size: 5px;
+	position: relative;
+}
+
+@mixin lsiz-head($m-letter){
+	font-size: $m-letter;
+	text-decoration: none;
+}
+/*estilo del banner*/
+.bg-gray{
+	background-color: #E6E6E6;
+	width: 100%;
+	padding: 50px 210px;
+}
+.style-head{
+	@include lsiz-head($m-letter);
+}
+.style-head:hover{
+	text-decoration:none;
+	}
+.color{
+	@include icon-color();
+	color: #08088A;
+}
+.color2{
+	@include icon-color();
+	color: #0040FF;
+}
+.color3{
+	@include icon-color();
+	color: #DF0101
+}
+.color4{
+	@include icon-color();
+	color: #D7DF01;
+}
+.color5{
+	@include icon-color();
+	color: #DF7401;
+}
+
+
