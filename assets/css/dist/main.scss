@@ -45,3 +45,60 @@ $m-letter: 12px;
 }
 
 
+@mixin marco_noticias(){
+	border: 1px solid #8D8D8D;
+	width: 303px;
+	height: 20em;
+	margin-bottom: 3em;
+
+}
+@mixin marco_title(){
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+@mixin marco_texto_img(){
+	color: red;	
+	position: relative;	
+	left: 10px;
+}
+
+@mixin text_white(){
+	position: relative;
+	bottom: 120px;
+	left: 10px;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-shadow: -6px -6px 6px #aaa;
+}
+.marco{
+	@include marco_noticias();
+}
+
+.texto_n{
+	@include marco_texto_img();
+}
+
+.title_m{
+	@include marco_title();
+}
+.link_m{
+	text-decoration: none;
+	color: black;
+}
+
+.text_ntwhite{
+	@include text_white();
+}
+
+.img_noticias{
+-webkit-box-shadow: inset -1px -158px 75px -46px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -1px -158px 75px -46px rgba(0,0,0,0.75);
+box-shadow: inset -1px -158px 75px -46px rgba(0,0,0,0.75);
+}
+
+.mini_text{
+	margin: 1em;
+}
