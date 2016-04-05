@@ -1,104 +1,20 @@
-/*variables*/
-$m-letter: 12px;
-/*mixins*/
-@mixin icon-color{
-	padding: 1px;
-	font-size: 5px;
-	position: relative;
-}
 
-@mixin lsiz-head($m-letter){
-	font-size: $m-letter;
-	text-decoration: none;
-}
-/*estilo del banner*/
-.bg-gray{
-	background-color: #E6E6E6;
-	width: 100%;
-	padding: 50px 210px;
-}
-.style-head{
-	@include lsiz-head($m-letter);
-}
-.style-head:hover{
-	text-decoration:none;
-	}
-.color{
-	@include icon-color();
-	color: #08088A;
-}
-.color2{
-	@include icon-color();
-	color: #0040FF;
-}
-.color3{
-	@include icon-color();
-	color: #DF0101
-}
-.color4{
-	@include icon-color();
-	color: #D7DF01;
-}
-.color5{
-	@include icon-color();
-	color: #DF7401;
-}
-
-
-@mixin marco_noticias(){
-	border: 1px solid #8D8D8D;
-	width: 303px;
-	height: 20em;
-	margin-bottom: 3em;
-
-}
-@mixin marco_title(){
-	color: red;
-	font-size: 20px;
-	font-weight: bold;
+.div_h1{
+	float: left;
 
 }
 
-@mixin marco_texto_img(){
-	color: red;	
-	position: relative;	
-	left: 10px;
+.div_h2{
+	float: right;
+	width: 700px;
 }
 
-@mixin text_white(){
-	position: relative;
-	bottom: 120px;
-	left: 10px;
-	color: #FFFFFF;
-	font-size: 20px;
-	text-shadow: -6px -6px 6px #aaa;
-}
-.marco{
-	@include marco_noticias();
+a{
+	text-style: none;
+	color: gray;
 }
 
-.texto_n{
-	@include marco_texto_img();
-}
-
-.title_m{
-	@include marco_title();
-}
-.link_m{
-	text-decoration: none;
-	color: black;
-}
-
-.text_ntwhite{
-	@include text_white();
-}
-
-.img_noticias{
--webkit-box-shadow: inset -1px -158px 75px -46px rgba(0,0,0,0.75);
--moz-box-shadow: inset -1px -158px 75px -46px rgba(0,0,0,0.75);
-box-shadow: inset -1px -158px 75px -46px rgba(0,0,0,0.75);
-}
-
-.mini_text{
-	margin: 1em;
+a:hover{
+	text-style: none;
+	color: red
 }

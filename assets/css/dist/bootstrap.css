@@ -133,7 +133,7 @@ input[type="submit"] {
 }
 button[disabled],
 html input[disabled] {
-  cursor: default;
+  cursor: default;b
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -3821,7 +3821,7 @@ tbody.collapse.in {
   display: table;
   border-collapse: separate;
 }
-.input-group[class*="col-"] {
+.input-group[class*="12"] {
   float: none;
   padding-right: 0;
   padding-left: 0;

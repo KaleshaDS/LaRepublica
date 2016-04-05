@@ -1,0 +1,35 @@
+/*.....INDEX....---*/
+@mixin icon-color{
+  padding: 1px;
+  font-size: 20px;
+  position: relative;
+}
+@mixin lsiz-head($m-letter){
+  font-size: $m-letter;
+  text-decoration: none;
+ }
+ @mixin marco_noticias(){
+  border: 1px solid #8D8D8D;
+  width: 303px;
+  height: 20em;
+  margin-bottom: 3em;
+}
+@mixin marco_title(){
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+@mixin marco_texto_img(){
+  color: red; 
+  position: relative; 
+  left: 10px;
+}
+@mixin text_white(){
+  position: relative;
+  bottom: 120px;
+  left: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-shadow: -6px -6px 6px #aaa;
+}
+
