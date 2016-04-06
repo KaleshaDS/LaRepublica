@@ -70,3 +70,39 @@ header {
   left: 550px;
 
 }
+
+/*logo y las otras cosillas*/
+.logo{
+  padding: 5em;
+}
+.layer1{
+ @include layer_f();
+}
+.margin{
+ @include margin_txt();
+}
+.layer2{
+  @include layer_v();
+}
+.margin2{
+  @include margin_txt2();
+  
+}
+.txtauthor{
+  position: relative;
+  bottom: 1em;
+}
+.autor{
+ float: right;
+ position: relative;
+ bottom: 5em;
+}
+
+/*para otros header*/
+.layerred{
+ @include layer_r();
+}
+.marginred{
+  @include margin_txtred();
+  
+}
